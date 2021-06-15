@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pure Js</title>
+</head>
+<body>
+<div id="app" class="container">
+    <div class="excel">
+        <div class="excel__header">
+            <input type="text" class="excel__input" value="New table"/>
+            <div>
+                <div class="excel__button">
+                    <span class="material-icons">delete</span>
+                </div>
+                <div class="excel__button">
+                    <span class="material-icons">logout</span>
+                </div>
+            </div>
+        </div>
+        <div class="excel__toolbar">
+            <div class="excel__button">
+                <span class="material-icons">format_align_left</span>
+            </div>
+            <div class="excel__button">
+                <span class="material-icons">format_align_center</span>
+            </div>
+            <div class="excel__button">
+                <span class="material-icons">format_align_right</span>
+            </div>
+            <div class="excel__button">
+                <span class="material-icons">format_bold</span>
+            </div>
+            <div class="excel__button">
+                <span class="material-icons">format_italic</span>
+            </div>
+            <div class="excel__button">
+                <span class="material-icons">format_underlined</span>
+            </div>
+        </div>
+        <div class="excel__formula">
+            <div class="excel__info">fx</div>
+            <div class="excel__input" contenteditable spellcheck="false"></div>
+        </div>
+        <div class="excel__table">
+            <div class="excel__row">
+                <div class="excel__rowinfo">
+
+                </div>
+                <div class="excel__rowdata">
+                    <div class="excel__column">A</div>
+                    <div class="excel__column">B</div>
+                    <div class="excel__column">C</div>
+
+                </div>
+            </div>
+            <div class="excel__row">
+                <div class="excel__rowinfo">
+                    1
+                </div>
+                <div class="excel__rowdata">
+                    <div class="excel__cell selected" contenteditable>a1</div>
+                    <div class="excel__cell" contenteditable>b2</div>
+                    <div class="excel__cell" contenteditable>c3</div>
+                </div>
+            </div>
+            <div class="excel__row">
+                <div class="excel__rowinfo">
+                    1
+                </div>
+                <div class="excel__rowdata">
+                    <div class="excel__cell " contenteditable>a1</div>
+                    <div class="excel__cell" contenteditable>b2</div>
+                    <div class="excel__cell" contenteditable>c3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
